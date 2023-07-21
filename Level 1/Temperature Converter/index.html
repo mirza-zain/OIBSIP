@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://bootswatch.com/4/cerulean/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <p>You can convert different type of Temperature Conversion from the drop down box menu</p>
+        <div class="form-group">
+            <label for="temp">Temperature</label>
+            <input type="text" class="form-control" id="temp" placeholder="Enter Temperature">
+            <label for="unit">Unit</label>
+            <select class="form-control" id="unit">
+                <option value="select">Select Option</option>
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <label for="unit">Convert to</label>
+            <select class="form-control" id="convert">
+                <option value="select">Select Option</option>
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <label for="result">Result</label>
+            <p id="result"></p>
+            <button class="btn btn-primary" id="btn">Convert</button>
 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
