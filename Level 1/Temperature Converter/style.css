@@ -1,0 +1,72 @@
+*
+{
+    background-color: rgb(245, 174, 174);
+    font-family: sans-serif;
+}
+.heading
+{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(252, 7, 7);
+}
+p
+{
+    text-align: center;
+    font-size: 22px;
+    color: rgb(207, 40, 40);
+}
+#btn
+{
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px 10px;
+    margin-top: 20px;
+    background: rgb(250, 50, 50);
+    border-radius: 10px;
+    font-size: 20px;
+}
+#btn:hover
+{
+    background: rgb(133, 0, 0);
+}
+label
+{
+    font-size: 20px;
+    padding-top: 4%;
+    padding-bottom: 0%;
+    color: rgb(252, 58, 58);
+}
+#temp
+{
+    font-size: 19px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    border: 3px solid rgb(221, 121, 121);
+    background-color: rgb(253, 205, 205);
+}
+#result
+{
+    font-size: 19px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    border: 3px solid rgb(221, 121, 121);
+    background-color: rgb(253, 205, 205);
+}
+#unit
+{
+    color: rgb(48, 47, 47);
+    font-size: 18px;
+    border-radius: 5px;
+    border: 3px solid rgb(221, 121, 121);
+    background: rgb(252, 221, 221);
+}
+#convert
+{
+    color: rgb(48, 47, 47);
+    font-size: 18px;
+    border-radius: 5px;
+    border: 3px solid rgb(221, 121, 121);
+    background-color: rgb(252, 221, 221);
+}
