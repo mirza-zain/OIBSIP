@@ -1,19 +1,21 @@
 *
 {
-    background-color: rgb(245, 174, 174);
+    background-color: rgb(71, 247, 203);
     font-family: sans-serif;
 }
 .heading
 {
+    font-family: fantasy;
     text-align: center;
     font-size: 50px;
-    color: rgb(252, 7, 7);
+    color: rgb(2, 34, 82);
 }
 p
 {
     text-align: center;
-    font-size: 22px;
-    color: rgb(207, 40, 40);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(2, 101, 250);
 }
 #btn
 {
@@ -21,45 +23,49 @@ p
     text-align: center;
     padding: 5px 10px;
     margin-top: 20px;
-    background: rgb(250, 50, 50);
-    border-radius: 10px;
+    margin-bottom: 20px;
+    background: rgb(17, 143, 136);
+    border-radius: 10px hover;
     font-size: 20px;
 }
 #btn:hover
 {
-    background: rgb(133, 0, 0);
+    background: rgb(1, 61, 56);
 }
 label
 {
+    font-family: fantasy;
     font-size: 20px;
     padding-top: 4%;
     padding-bottom: 0%;
-    color: rgb(252, 58, 58);
+    color: rgb(2, 34, 82);
 }
 #temp
 {
+    font-family: fantasy;
     font-size: 19px;
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 5px;
-    border: 3px solid rgb(221, 121, 121);
-    background-color: rgb(253, 205, 205);
+    border: 3px solid rgb(2, 32, 250);
+    background-color: rgb(243, 237, 237);
 }
 #result
 {
+    font-family: fantasy;
     font-size: 19px;
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 5px;
-    border: 3px solid rgb(221, 121, 121);
-    background-color: rgb(253, 205, 205);
+    border: 3px solid rgb(2, 32, 250);
+    background-color: rgb(252, 252, 252);
 }
 #unit
 {
     color: rgb(48, 47, 47);
     font-size: 18px;
     border-radius: 5px;
-    border: 3px solid rgb(221, 121, 121);
+    border: 3px solid rgb(2, 32, 250);
     background: rgb(252, 221, 221);
 }
 #convert
@@ -67,6 +73,30 @@ label
     color: rgb(48, 47, 47);
     font-size: 18px;
     border-radius: 5px;
-    border: 3px solid rgb(221, 121, 121);
+    border: 3px solid rgb(2, 32, 250);
     background-color: rgb(252, 221, 221);
+}
+footer h2
+{
+    font-family: fantasy;
+    color: rgb(2, 101, 250);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+footer h3
+{
+    font-family: fantasy;
+    color: rgb(2, 101, 250);
+    font-size: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer section a i
+{
+    color: black;
+    font-size: 20px;
+}
+footer section a i:hover
+{
+    color: rgb(2, 101, 250);
 }

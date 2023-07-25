@@ -5,23 +5,38 @@ Button.addEventListener("click", function() {
     let tempUnit = document.getElementById("unit").value;
     let tempConvert = document.getElementById("convert").value;
     let result = document.getElementById("result");
- 
-    if(tempUnit == "celsius" && tempConvert == "fahrenheit"){
+
+    if (temp == "") {
+        alert("I'm sorry, but you must enter a temperature to convert.");
+    }
+    else if(temp < -273.15){
+        alert("I'm sorry, but you must enter a temperature above absolute zero.");
+    }
+    else if(tempUnit == "select" || tempConvert == "select"){
+        alert("Are you kidding me ? Please select a unit");
+    }
+    else if(tempUnit == tempConvert){
+        alert("Are you kidding me ? Please select a different unit");
+    }
+    else if(tempUnit == "celsius" && tempConvert == "fahrenheit"){
         result.value = (temp * 9) / 5 + 32;
     }
-    if(tempUnit == "celsius" && tempConvert == "kelvin"){
+    else if(tempUnit == "celsius" && tempConvert == "kelvin"){
         result.value = temp + 273.15;
     }
-    if(tempUnit == "fahrenheit" && tempConvert == "celsius"){
+    else if(tempUnit == "fahrenheit" && tempConvert == "celsius"){
         result.value = (temp - 32) * 5 / 9;
     }
-    if(tempUnit == "fahrenheit" && tempConvert == "kelvin"){
+    else if(tempUnit == "fahrenheit" && tempConvert == "kelvin"){
         result.value = (temp - 32) * 5 / 9 + 273.15;
     }
-    if(tempUnit == "kelvin" && tempConvert == "celsius"){
+    else if(tempUnit == "kelvin" && tempConvert == "celsius"){
         result.value = temp - 273.15;
     }
-    if(tempUnit == "kelvin" && tempConvert == "fahrenheit"){
+    else if(tempUnit == "kelvin" && tempConvert == "fahrenheit"){
         result.value = (temp - 273.15) * 9 / 5 + 32;
+    }
+    else{
+        result.value = "Invalid";
     }
 });
