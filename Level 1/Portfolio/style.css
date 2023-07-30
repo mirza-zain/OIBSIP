@@ -6,7 +6,7 @@
 }
 body
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif, fan;
 }
 .hero
 {
@@ -21,26 +21,24 @@ body
 }
 .hero .cover-heading
 {
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 25%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: #beb1ab;
-    font-size: 50px;
+    color: #9affaa;
+    font-size: 80px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
 }
-.hero .lead
+.hero img
 {
     position: absolute;
-    top: 65%;
     left: 50%;
-    transform: translate(-50%,50%);
-    color: #b6a8a8;
-    font-size: 22px;
-    font-weight: 400;
-    text-align: center;
+    transform: translate(-50%,17%);
+    top: 0%;
+    width: 35%;
+    height:85%;
 }
 #about
 {
@@ -123,25 +121,25 @@ body
   font-weight: 500;
 }
 #project .card{
-  margin-bottom: 5%;
-  border: none;
-  border-radius: 0;
+  margin-bottom: 10%;
+  border: 5px solid rgb(75, 67, 66);
+  border-radius: 10px;
   box-shadow: 0 0 15px 0 rgb(36, 44, 44);
 }
 #project .card:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
   box-shadow: 0 0 15px 0 rgb(36, 44, 44);
 }
 #project .card img{
   width: 100%;
   height: 100%;
-  border-radius: 0;
+  border-radius: 14px;
 }
 #project .card .card-body{
-  padding: 0;
+  padding: 11px;
 }
 #project .card .card-body h5{
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 20px;
   font-weight: 700;
 }
